@@ -21,9 +21,3 @@ sudo pip install $(cat packages/packages-apt-development.txt)
 
 echo 'installing nvm...'
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-
-ln -sf ~/.dotfiles/.stellarium/config.ini ~/.stellarium/config.ini
-ln -sf ~/.dotfiles/.vscode/settings.json ~/.config/Code/User/settings.json
-ln -sf ~/.dotfiles/.vscode/keybindings.json ~/.config/Code/User/keybindings.json
-ln -sf ~/.dotfiles/.vscode/snippets ~/.config/Code/User/snippets
-ln -sf ~/.dotfiles/.vscode/extensions.json ~/.config/Code/User/extensions.json
