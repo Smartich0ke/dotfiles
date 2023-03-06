@@ -1,8 +1,8 @@
 #!/bin/bash
-rm ~/.profile
-rm ~/.gitconfig
-rm ~/.bash_profile
-rm ~/.bashrc
+rm -f ~/.profile
+rm -f ~/.gitconfig
+rm -f ~/.bash_profile
+rm -f ~/.bashrc
 ln -sf ~/.dotfiles/.bashrc ~/.bashrc
 ln -sf ~/.dotfiles/.bash_profile ~/.bash_profile
 ln -sf ~/.dotfiles/.profile ~/.profile
