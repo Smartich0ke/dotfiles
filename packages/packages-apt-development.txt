@@ -8,6 +8,6 @@ php-mysql
 php-tokenizer
 php-xml
 php-zip
-php-sqlite
+php8.1-sqlite
 sqlite
 nano
