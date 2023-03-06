@@ -1,0 +1,25 @@
+#!/bin/bash
+ln -sf ~/.dotfiles/.bashrc ~/.bashrc
+ln -sf ~/.dotfiles/.bash_profile ~/.bash_profile
+ln -sf ~/.dotfiles/.profile ~/.profile
+ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
+
+echo 'Symlinks created'
+
+sudo apt-get -y update
+sudo apt-get -y upgrade
+
+echo 'Installing all packages expressly installed by apt (packages-apt-development.txt)... This may take a while...'
+sudo apt-get -y --ignore-missing install $(cat packages-apt-development.txt)
+
+echo 'installing all packages expressly installed by pip (packages-pip.txt)... This may take a while...'
+sudo pip install $(cat packages-pip.txt)
+
+echo 'installing nvm...'
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+
+ln -sf ~/.dotfiles/.stellarium/config.ini ~/.stellarium/config.ini
+ln -sf ~/.dotfiles/.vscode/settings.json ~/.config/Code/User/settings.json
+ln -sf ~/.dotfiles/.vscode/keybindings.json ~/.config/Code/User/keybindings.json
+ln -sf ~/.dotfiles/.vscode/snippets ~/.config/Code/User/snippets
+ln -sf ~/.dotfiles/.vscode/extensions.json ~/.config/Code/User/extensions.json
