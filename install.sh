@@ -3,10 +3,10 @@ rm -f ~/.profile
 rm -f ~/.gitconfig
 rm -f ~/.bash_profile
 rm -f ~/.bashrc
-ln -sf .bashrc ~/.bashrc
-ln -sf .bash_profile ~/.bash_profile
-ln -sf .profile ~/.profile
-ln -sf .gitconfig ~/.gitconfig
+ln -sf $PWD/.bashrc $HOME/.bashrc
+ln -sf $PWD/.bash_profile $HOME/.bash_profile
+ln -sf $PWD/.profile $HOME/.profile
+ln -sf $PWD/.gitconfig $HOME/.gitconfig
 
 echo 'Symlinks created'
 
