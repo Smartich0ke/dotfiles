@@ -1,0 +1,11 @@
+[user]
+	name = Smartich0ke
+	email = 41409702+Smartich0ke@users.noreply.github.com
+[init]
+	defaultBranch = master
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
