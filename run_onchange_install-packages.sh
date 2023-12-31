@@ -36,6 +36,21 @@ sudo nala install fonts-firacode
 git clone https://github.com/ryanoasis/nerd-fonts.git
 ./install.sh FiraCode
 
+echo "Installing Fish..."
+
+sudo apt-add-repository ppa:fish-shell/release-3
+sudo nala update
+sudo nala install fish
+
+echo "Installing Fisher..."
+
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+fisher update
+
+echo "Installing Nala..."
+
+curl -sS https://starship.rs/install.sh | sh
+
 echo "World you like to install Junction? (y/n)"
 
 read junction
