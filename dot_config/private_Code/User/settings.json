@@ -1,0 +1,484 @@
+{
+    "editor.tabCompletion": "onlySnippets",
+    "editor.snippetSuggestions": "top",
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "emojisense.languages": {
+        "markdown": true,
+        "php": true,
+        "html": true,
+        "cpp": true,
+        "plaintext": {
+            "markupCompletionsEnabled": false,
+            "emojiDecoratorsEnabled": false
+        },
+        "scminput": true,
+        "git-commit": true
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10000,
+    "[html]": {
+        "editor.defaultFormatter": "mohd-akram.vscode-html-format"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "'FiraCode Nerd Font Mono', monospace",
+    "editor.fontLigatures": true,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "yaml": true
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "projectManager.git.baseFolders": [
+        "~/Code"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "wws-bot-dev",
+            "database": "wwsbotdev",
+            "username": "root"
+        }
+    ],
+    "cmake.buildEnvironment": {
+        "PICO_SDK_PATH": "/home/npatrick/raspberry-pi-pico/pico/pico-sdk"
+    },
+    "cmake.configureEnvironment": {
+        "PICO_SDK_PATH": "/home/npatrick/raspberry-pi-pico/pico/pico-sdk"
+    },
+    "cSpell.userWords": [
+        "Customisation",
+        "nuxt",
+        "nuxtjs",
+        "optimisation",
+        "Optimises",
+        "proxied",
+        "tailwindcss"
+    ],
+    "window.titleBarStyle": "custom",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "remote.SSH.remotePlatform": {
+        "coder-vscode--npatrick--artichoke3d": "linux",
+        "coder-vscode--npatrick--projects-nikolaipatrick-com": "linux",
+        "coder-vscode--npatrick--FerriteCMS": "linux",
+        "coder-vscode--npatrick--ferritecms": "linux",
+        "coder-vscode--npatrick--test-thingo": "linux",
+        "coder-vscode--npatrick--artichokemc": "linux",
+        "coder-vscode--npatrick--openclimate--main": "linux"
+    },
+    "sync.gist": "8dce199d3243205146a01497fa2bd027",
+    "sync.autoUpload": true,
+    "sync.quietSync": false,
+    "emmet.includeLanguages": {
+        "blade": "html"
+    },
+    "workbench.colorTheme": "One Dark Pro Flat",
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.includeLanguages": {
+        "vue": "html",
+        "vue-html": "html"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "pymakr.devices.configs": {
+        "serial:///dev/ttyS1": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS10": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS11": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS12": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS13": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS14": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS15": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS16": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS17": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS18": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS19": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS2": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS20": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS21": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS22": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS23": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS24": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS25": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS26": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS27": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS28": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS29": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS3": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS30": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS31": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS4": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS5": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS6": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS7": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS8": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS9": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyS0": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "e6614104034c0e2b": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "0001": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "377B34603038": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "E6614104034C0E2B": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "E6614C30932DB329": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyUSB0": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "85435333131351714192": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial:///dev/ttyUSB1": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "55732323930351507162": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        }
+    },
+    "picowgo.pythonPath": "python3",
+    "workbench.startupEditor": "none",
+    "files.associations": {
+        "*.yaml": "yaml"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "explorer.confirmDragAndDrop": false
+}
