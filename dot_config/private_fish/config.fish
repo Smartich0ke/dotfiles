@@ -23,4 +23,6 @@ if test -f .nvmrc
     nvm install
 end
 
+set fish_greeting
+
 starship init fish | source
