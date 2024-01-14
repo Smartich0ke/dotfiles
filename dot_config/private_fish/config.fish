@@ -17,7 +17,10 @@ export PICO_PLAYGROUND_PATH=/home/npatrick/Code/pico/pico-playground
 
 set -gx KUBECONFIG ~/.kube/pleiades.yaml
 
-export NVM_SYMLINK_CURRENT=true
 set -gx NVM_SYMLINK_CURRENT true
+
+if test -f .nvmrc
+    nvm install
+end
 
 starship init fish | source
